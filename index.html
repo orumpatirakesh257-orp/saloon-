@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nova Salon Studio - Experience Luxury Beauty Care. Premium hair, spa, and grooming services.">
+    <meta name="keywords" content="salon, beauty, haircut, spa, luxury, grooming">
+    <title>Nova Salon Studio | Luxury Beauty Care</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">NOVA<span class="gold">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#booking" class="btn-nav">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">Redefine Your <span class="gold">Elegance</span></h1>
+            <p class="fade-in delay">Experience world-class beauty care in an atmosphere of pure luxury.</p>
+            <a href="#booking" class="btn-primary fade-in delay-2">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Salon Interior">
+                </div>
+                <div class="about-text">
+                    <h4 class="sub-heading">About Us</h4>
+                    <h2 class="heading">Where Art Meets <span class="gold">Style</span></h2>
+                    <p>Welcome to Nova Salon Studio. We believe that beauty is an art, and you are the canvas. With over a decade of experience, our team of expert stylists is dedicated to providing personalized services that enhance your natural beauty.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check gold"></i> Premium Organic Products</li>
+                        <li><i class="fas fa-check gold"></i> Expert Certified Stylists</li>
+                        <li><i class="fas fa-check gold"></i> Hygienic & Sterile Environment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="heading">Our <span class="gold">Services</span></h2>
+                <p>Curated treatments for your ultimate relaxation.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <i class="fas fa-cut icon"></i>
+                    <h3>Haircut & Styling</h3>
+                    <p>Precision cuts tailored to face shape and lifestyle.</p>
+                    <span class="price">From $40</span>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <i class="fas fa-paint-brush icon"></i>
+                    <h3>Hair Coloring</h3>
+                    <p>Luxury balayage, highlights, and global color.</p>
+                    <span class="price">From $80</span>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <i class="fas fa-spa icon"></i>
+                    <h3>Facial & Spa</h3>
+                    <p>Rejuvenate your skin with our signature therapies.</p>
+                    <span class="price">From $60</span>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <i class="fas fa-user-tie icon"></i>
+                    <h3>Beard Grooming</h3>
+                    <p>Classic shaves and modern beard sculpting.</p>
+                    <span class="price">From $25</span>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card">
+                    <i class="fas fa-hands-wash icon"></i>
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Complete hand and foot care treatment.</p>
+                    <span class="price">From $35</span>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card">
+                    <i class="fas fa-crown icon"></i>
+                    <h3>Bridal Package</h3>
+                    <p>Full makeup and hairstyling for your big day.</p>
+                    <span class="price">Custom</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section-padding">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <h2 class="heading">Book Your <span class="gold">Session</span></h2>
+                    <p>Ready for a transformation? Fill out the form to schedule your appointment. We will confirm via WhatsApp.</p>
+                    <div class="contact-info-mini">
+                        <p><i class="fas fa-phone gold"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt gold"></i> 123 Luxury Ave, New York, NY</p>
+                    </div>
+                </div>
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" id="phone" required placeholder="+1 234 567 8900">
+                    </div>
+                    <div class="form-group">
+                        <label>Select Service</label>
+                        <select id="service" required>
+                            <option value="" disabled selected>Choose a service...</option>
+                            <option value="Haircut & Styling">Haircut & Styling</option>
+                            <option value="Hair Coloring">Hair Coloring</option>
+                            <option value="Facial & Spa">Facial & Spa</option>
+                            <option value="Beard Grooming">Beard Grooming</option>
+                            <option value="Manicure/Pedicure">Manicure/Pedicure</option>
+                            <option value="Bridal Package">Bridal Package</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Time</label>
+                            <input type="time" id="time" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Book via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="heading">Our <span class="gold">Gallery</span></h2>
+            </div>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600&q=80" alt="Salon Work 1">
+              <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=600&q=80">
+              <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80">
+                <img src="https://images.unsplash.com/photo-1593702288056-f4a4c0c7c3c9?auto=format&fit=crop&w=600&q=80">
+                <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=600&q=80">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section-padding bg-darker">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="heading">Client <span class="gold">Reviews</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Absolutely stunning salon! The atmosphere is so relaxing, and my haircut is exactly what I asked for. Highly recommended!"</p>
+                    <h4>- Sarah Jenkins</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best beard grooming in the city. The staff is professional and uses great products. Nova is my go-to place now."</p>
+                    <h4>- Michael Ross</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"The bridal package was worth every penny. I felt like a queen on my wedding day. Thank you Nova Studio!"</p>
+                    <h4>- Emily Clark</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="heading">Get in <span class="gold">Touch</span></h2>
+                    <p>Visit us or send us a message. We are here to answer any questions you might have.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Luxury Avenue, Manhattan,<br>New York, NY 10012</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@novasalon.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <!-- Google Map Embed Placeholder -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98513098459375!3d40.74881747932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>NOVA<span class="gold">.</span></h3>
+                    <p>Experience Luxury Beauty Care</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#booking">Booking</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="copyright">&copy; 2023 Nova Salon Studio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/15551234567" class="float-wa" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
